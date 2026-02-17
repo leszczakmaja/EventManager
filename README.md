@@ -25,3 +25,6 @@ projektowania struktury bazy danych
 pracy z relacjami jeden-do-wielu
 organizacji kodu backendowego
 obsługi formularzy i walidacji danych
+
+Na serwerze UJ Wierzba projekt działa pod adresem:
+http://wierzba.uj.edu.pl/~twoj_login/nazwa_projektu](https://wierzba.wzks.uj.edu.pl/~24_leszczak/BD2/projekt/strona.php
