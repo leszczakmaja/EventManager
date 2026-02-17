@@ -1,4 +1,3 @@
-
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f5fb;
@@ -12,6 +11,8 @@ h2 {
     margin-bottom: 15px;
     color: #2d2d2d;
 }
+
+/* MENU */
 .menu {
     background-color: #ffffff;
     padding: 14px 20px;
@@ -20,7 +21,7 @@ h2 {
     box-shadow: 0 4px 10px rgba(108,92,231,0.08);
     display: flex;
     align-items: center;
-    justify-content: space-between; 
+    justify-content: space-between;
     gap: 20px;
 }
 
@@ -60,7 +61,7 @@ h2 {
     padding: 10px 20px !important;
     border-radius: 12px !important;
     border: none !important;
-    background-color: #e75c5c !important;
+    background-color: #6c5ce7 !important;
     color: #ffffff !important;
     font-size: 16px !important;
     font-weight: bold;
@@ -68,9 +69,10 @@ h2 {
 }
 
 .menu-search input[type="submit"]:hover {
-    background-color: #dc4f4f !important;
+    background-color: #5a4bcc !important;
 }
 
+/* INPUTY */
 input[type="text"],
 input[type="email"],
 input[type="date"],
@@ -79,25 +81,27 @@ input[type="number"] {
     padding: 8px;
     border-radius: 8px;
     border: none;
-    background-color: #f1f2f8;
+    background-color: #f4f3ff; /* jasny fioletowy odcień */
     margin-right: 5px;
 }
 
+/* PRZYCISKI FORMULARZY */
 input[type="submit"] {
     padding: 8px 14px;
     border-radius: 8px;
     border: none;
-    background-color: #7e7d55;
-    color: #00ffdd;
+    background-color: #6c5ce7;
+    color: #ffffff;
     cursor: pointer;
 }
 
 input[type="submit"]:hover {
-    background-color: #ff0808;
+    background-color: #5a4bcc;
 }
 
+/* LINKI */
 a {
-    color: #e75c5c;
+    color: #6c5ce7;
     text-decoration: none;
 }
 
@@ -105,6 +109,7 @@ a:hover {
     text-decoration: underline;
 }
 
+/* TABELA */
 table {
     width: 100%;
     border-collapse: collapse;
@@ -114,33 +119,29 @@ table {
     overflow: hidden;
 }
 
-/* nagłówek tabeli */
 th {
-    background-color: #f4f5fb;
+    background-color: #f4f3ff;
     padding: 14px;
     text-align: left;
-    color: #666;
+    color: #6c5ce7;
     font-size: 14px;
 }
 
-/* wiersze */
 td {
     padding: 14px;
     border-top: 1px solid #eee;
     background-color: #ffffff;
 }
 
-/* hover – bardzo delikatny */
 tr:hover td {
-    background-color: #f8f9ff;
+    background-color: #f0f0ff; /* lekki fioletowy hover */
 }
 
-/* USUNIĘCIE ramek HTML */
 table, th, td {
     border: none !important;
 }
 
-/* ===== PRZYCISKI AKCJI (EDYTUJ / USUŃ) ===== */
+/* PRZYCISKI AKCJI W TABELI */
 td a {
     display: inline-block;
     padding: 6px 12px;
@@ -151,33 +152,30 @@ td a {
     transition: background-color 0.2s;
 }
 
-/* edytuj */
+/* EDYTUJ */
 td a[href*="zmien"] {
     background-color: #6c5ce7;
     color: #ffffff;
 }
 
-/* usuń */
+/* USUŃ / POTWIERDZ */
 td a[href*="usun"],
 td a[href*="potwierdz"] {
     background-color: #edeaff;
     color: #6c5ce7;
 }
 
-/* hover */
 td a:hover {
     opacity: 0.85;
     text-decoration: none;
 }
 
-
-/* ===== LINK POWRÓT ===== */
-/* ===== LINK POWRÓT ===== */
+/* POWRÓT */
 .powrot-btn {
     display: inline-block;
-    margin-top: 20px; /* większy odstęp od formularza */
+    margin-top: 20px;
     text-decoration: none;
-    color: #00ff48;
+    color: #6c5ce7;
     font-weight: bold;
 }
 
@@ -185,16 +183,15 @@ td a:hover {
     text-decoration: underline;
 }
 
-
+/* KARTA / FORMULARZ */
 .card {
     background: #ffffff;
     padding: 20px;
     border-radius: 12px;
     max-width: 500px;
-    box-shadow: 0 4px 12px rgba(123, 92, 255, 0.12);
+    box-shadow: 0 4px 12px rgba(108,92,231,0.12);
 }
 
-/* formularz */
 .card form {
     display: flex;
     flex-direction: column;
@@ -211,13 +208,13 @@ td a:hover {
 
 .card input:focus {
     outline: none;
-    border-color: #ff5c5c;
+    border-color: #6c5ce7;
 }
 
-/* przycisk zapisu */
+/* PRZYCISK ZAPISU W KARTECIE */
 .card input[type="submit"] {
-    background: #ffe75c;
-    color: white;
+    background: #6c5ce7;
+    color: #ffffff;
     border: none;
     padding: 10px;
     border-radius: 20px;
@@ -225,6 +222,5 @@ td a:hover {
 }
 
 .card input[type="submit"]:hover {
-    background: #e69d49;
+    background: #5a4bcc;
 }
-
